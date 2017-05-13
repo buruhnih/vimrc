@@ -1,5 +1,12 @@
 set clipboard=unnamedplus  " use the clipboards of vim and linux﻿
 
+<<<<<<< HEAD
+=======
+autocmd BufEnter * colorscheme default
+autocmd BufEnter *.html colorscheme red
+autocmd BufEnter *.scss colorscheme morning
+
+>>>>>>> 94bc701f54bd0fc61eb121f7fa69feca5a4f3962
 "=============================
 "Configuration vim-airline
 "============================
@@ -119,23 +126,30 @@ nmap <Leader>P "+P
 vmap <Leader>p "+p
 vmap <Leader>P "+P
 
+<<<<<<< HEAD
 " remap into escape
 inoremap hlh <Esc>
 
+=======
+>>>>>>> 94bc701f54bd0fc61eb121f7fa69feca5a4f3962
 " Delete one line without copying
 nnoremap <leader>d "_d
 vnoremap <leader>d "_d
 vnoremap <leader>p "_dP
 
+<<<<<<< HEAD
 " $HOME/.vimrc
 " :set directory=$HOME/.vim/swapfiles//"
 set directory^=~/.vimbackup     
 
+=======
+>>>>>>> 94bc701f54bd0fc61eb121f7fa69feca5a4f3962
 "Enter visual line mode with <Space><Space>
 nmap <Leader><Leader> V
 
 set timeout timeoutlen=1500
 
+<<<<<<< HEAD
 " configure expanding of tabs for various file types
 " au BufRead,BufNewFile *.py set expandtab
 " au BufRead,BufNewFile *.c set noexpandtab
@@ -153,12 +167,18 @@ au BufNewFile,BufRead *.py
 
 " au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
+=======
+>>>>>>> 94bc701f54bd0fc61eb121f7fa69feca5a4f3962
 " Editing behaviour {{{
 set showmode                    " always show what mode we're currently editing in
 set nowrap                      " don't wrap lines
 set tabstop=4                   " a tab is four spaces
 set softtabstop=4               " when hitting <BS>, pretend like a tab is removed, even if spaces
+<<<<<<< HEAD
 " set expandtab                   " expand tabs by default (overloadable per file type later)
+=======
+set expandtab                   " expand tabs by default (overloadable per file type later)
+>>>>>>> 94bc701f54bd0fc61eb121f7fa69feca5a4f3962
 set shiftwidth=4                " number of spaces to use for autoindenting
 set shiftround                  " use multiple of shiftwidth when indenting with '<' and '>'
 set backspace=indent,eol,start  " allow backspacing over everything in insert mode
@@ -276,6 +296,11 @@ Plugin 'ervandew/supertab'
 
 Plugin 'easymotion/vim-easymotion'
 
+<<<<<<< HEAD
+=======
+Plugin 'Valloric/YouCompleteMe'
+
+>>>>>>> 94bc701f54bd0fc61eb121f7fa69feca5a4f3962
 Plugin 'mhinz/vim-signify'
 
 Plugin 'airblade/vim-gitgutter'
@@ -313,8 +338,11 @@ Plugin 'vim-airline/vim-airline-themes'
 
 Plugin 'chriskempson/tomorrow-theme'
 
+<<<<<<< HEAD
 Plugin 'vim-scripts/indentpython.vim'
 
+=======
+>>>>>>> 94bc701f54bd0fc61eb121f7fa69feca5a4f3962
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
